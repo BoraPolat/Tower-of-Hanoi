@@ -1,10 +1,10 @@
-# 🗼 Tower of Hanoi — Iterative & Recursive (C++)
+# Tower of Hanoi — Iterative & Recursive (C++)
 
 Two complete C++ implementations of the classic **Tower of Hanoi** puzzle, built with array-based tower simulation, real-time state display, move validation, and automatic file logging.
 
 ---
 
-## 📁 Files
+## Files
 
 | File | Description |
 |---|---|
@@ -13,7 +13,7 @@ Two complete C++ implementations of the classic **Tower of Hanoi** puzzle, built
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 Both implementations share the same tower simulation layer:
 
@@ -36,7 +36,7 @@ Uses the classic **divide-and-conquer** recursion:
 
 ---
 
-## 🚀 Compilation & Usage
+## Compilation & Usage
 
 ```bash
 # Iterative
@@ -56,7 +56,7 @@ Enter the number of disks: 3
 
 ---
 
-## 📄 Output
+## Output
 
 Each run produces:
 - **Live terminal output** showing every move and tower state.
@@ -83,7 +83,7 @@ Hanoi is solved! Total Moves: 7
 
 ---
 
-## 🧠 Complexity
+## Complexity
 
 | n | Minimum Moves |
 |---|---|
@@ -93,11 +93,11 @@ Hanoi is solved! Total Moves: 7
 | 10 | 1,023 |
 | n | 2ⁿ − 1 |
 
-> ⚠️ Large values of `n` will produce a very large number of moves and output lines. Use with caution above `n = 20`.
+> ! Large values of `n` will produce a very large number of moves and output lines. Use with caution above `n = 20`.
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - C++11 or later
 - Standard library only (no external dependencies)
