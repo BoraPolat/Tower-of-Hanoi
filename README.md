@@ -71,7 +71,7 @@ Example display for 3 disks:
 | 3 |         |   |         |   |
 ---------------------------------
 A --> C
-...
+...  //Every step will be shown in here.
   A             B             C  
 |   |         |   |         | 1 |
 |   |         |   |         | 2 |
